@@ -9,20 +9,19 @@
 }
 
 .front-card {
-  background: url("../src/images/bg-card-front.png");
-  background-size: cover;
+  background: url("../src/images/bg-card-front.png") no-repeat center/cover;
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 200px;
-  width: 320px;
+  /* width: 450px; */
+  border-radius: 10px;
 }
 .back-card {
-  background: url("../src/images/bg-card-back.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("../src/images/bg-card-back.png") no-repeat center/cover;
   height: 300px;
-  width: 450px;
+  /* width: 450px; */
+  border-radius: 10px;
 }
 .back-card p {
   top: 8.4rem;
